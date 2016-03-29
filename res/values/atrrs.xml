@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FloatEditView">
+        <attr name="floatLabelSidePadding" format="dimension" />
+        <attr name="floatLabelTextAppearance" format="reference" />
+        <attr name="floatLabelEditLength" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xlgzs.effect.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".EffectDemos"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShimmerViewActivity"
+                android:label="@string/shimmer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RetroflexViewActivity"
+                android:label="@string/retroflex">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FloatEditViewActivity"
+                android:label="@string/floatEdit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DropDownViewActivity"
+                android:label="@string/dropDown">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MeshViewActivity"
+                android:label="@string/meshView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
